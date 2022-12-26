@@ -410,13 +410,22 @@ header .navbar ul li a:hover {
         padding: 1rem 4rem;
     }
 }
+@media(max-width: 767px) {
+    .navigation-in {
+        height: auto;
+    }
+
+    #navigation {
+        height: auto !important;
+    }
+}
+
 
 @media (max-width:991px) {
     header {
         left: -120%;
     }
-    #menu {
-        display: block;
+   
     }
     header.toggle {
         left: 0%;
