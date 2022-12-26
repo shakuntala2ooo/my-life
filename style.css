@@ -412,11 +412,11 @@ header .navbar ul li a:hover {
 }
 @media(max-width: 767px) {
     .navigation-in {
-        height: auto;
+        display: none;
     }
 
     #navigation {
-        height: auto !important;
+        display: block !important;
     }
 }
 
