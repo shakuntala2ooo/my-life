@@ -411,15 +411,12 @@ header .navbar ul li a:hover {
     }
 }
 
-
-
 @media (max-width:991px) {
     header {
         left: -120%;
     }
     #menu {
         display: block;
-   
     }
     header.toggle {
         left: 0%;
