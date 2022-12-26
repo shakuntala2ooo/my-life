@@ -35,11 +35,11 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-    background: var(--darkgreen);
+    background: darkgreen;
 }
 
 body {
-    background: rgb(19, 89, 136);
+    background: rgb(88, 146, 184);
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -83,7 +83,7 @@ section {
 }
 
 .heading span {
-    color: var(--darkgreen);
+    color: rgb(255, 94, 0);
 }
 
 header {
@@ -174,7 +174,7 @@ header .navbar ul li a:hover {
 }
 
 .home h1 span {
-    color: var(--darkgreen);
+    color: rgb(187, 253, 4);
 }
 
 .home p {
@@ -184,7 +184,7 @@ header .navbar ul li a:hover {
 }
 
 .about {
-    background-color: rgb(49, 24, 6);
+    background-color: rgb(165, 204, 211);
 }
 
 .about .row {
@@ -222,7 +222,7 @@ header .navbar ul li a:hover {
 
 .about .row .counter .box {
     width: 20rem;
-    background: #222;
+    background: rgb(161, 126, 126);
     text-align: center;
     padding: 2rem;
     margin: 2rem;
@@ -239,7 +239,7 @@ header .navbar ul li a:hover {
 }
 
 .blog {
-    background: #19ba13;
+    background: #b4dfb3;
     padding: 4.5rem 0;
 }
 
@@ -253,8 +253,8 @@ header .navbar ul li a:hover {
 
 .blog-img span {
     position: absolute;
-    bottom: 1px;
-    right: 1px;
+    bottom: 5px;
+    right: 5px;
     background: var(--exDark);
     color: #fff;
     font-size: 0.2rem;
